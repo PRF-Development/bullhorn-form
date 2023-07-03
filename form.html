@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <button id="sendInfosBtn">Send</button>
+    <p id="sent_result">Candidate not sent yet.</p>
+    <p id="candidate_link">Candidate link not available yet.</p>
+    <br>
+    <form>
+        <span>
+            <label for="jobs">Poste / Fonction:</label>
+            <input type="text" name="jobs" id="jobs">
+        </span>
+        <label for="skills">Competances:</label>
+        <textarea rows="5" cols="45" name="skills" id="skills"></textarea>
+        <label for="daily_rate">TJM (Euros):</label>
+        <input type="number" name="daily_rate" id="daily_rate">
+        <label for="begin_year">Année de Début Expérience Professionelle:</label>
+        <input type="number" name="begin_year" id="begin_year" value="2020">
+        <label for="availability">Disponibilité:</label>
+        <select name="availability" id="availability">
+            <option value="0">Immédiatement</option>
+            <option value="2">sous 1 mois</option>
+            <option value="3">sous 3 mois</option>
+            <option value="1">à voir</option>
+        </select>
+        <label for="name">Nom & Prénom:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Numéro de Portable:</label>
+        <input type="tel" name="phone" id="phone">
+        <label for="address">Adresse (Ville):</label>
+        <textarea rows="3" cols="35" name="address" id="address"></textarea>
+        <label for="mobility">Mobilité:</label>
+        <input type="text" name="mobility" id="mobility">
+        <label for="comment">Message:</label>
+        <textarea rows="3" cols="45" name="comment" id="comment"></textarea>
+        <span>
+            <input type="checkbox" checked disabled name="profile" id="profile">
+            <label for="profile">Freelance</label>
+        </span>
+        <span>
+            <label for="cv">CV:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
+        </span>
+    </form>
+    <script src="bullhorn2.js" charset="utf-8"></script>
+    <script src="form.js" charset="utf-8"></script>
+</body>
+
+</html>

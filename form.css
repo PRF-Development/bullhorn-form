@@ -1,0 +1,96 @@
+body{
+    width: 30em;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    width: 20em;
+}
+
+button:active {
+    color: white;
+}
+
+button {
+    outline: none;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+#sendInfosBtn {
+    background-color: lightseagreen;
+}
+
+
+/* #address{
+  width: 20em;
+} */
+
+#phone {
+    width: 10em;
+}
+
+#email {
+    width: 15em;
+}
+
+#profile {
+    width: 12em;
+}
+
+#jobs {
+    width: 17em;
+}
+
+#languages {
+    width: 20em;
+}
+
+#age {
+    width: 5em;
+}
+
+#diploma {
+    width: 7em;
+}
+
+#experience {
+    width: 16em;
+}
+
+#availability {
+    width: 12em;
+}
+
+#mobility {
+    width: 12em;
+}
+
+
+/* #skills{
+  width: 20em;
+} */
+
+#daily_rate {
+    width: 5em;
+}
+
+#sent_result {
+    display: none;
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+#candidate_link{
+    display: none;
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
